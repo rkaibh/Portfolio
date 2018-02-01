@@ -70,6 +70,8 @@ var gApp = angular.module('gApp', []);
 			}
 		];
 		
+		$scope.toAlert = () => { alert("https://gist.githubusercontent.com/rkaibh/b2dc3fee9c58661897c0fc23253d9575/raw/2c1a80dd937271ec61a7dba9f1145bc9a023a111/forPort");};
+		
 		$scope.btnEvnet = function(index){
 			$scope.projectUrl = "";
 			$scope.projectFlag = false;
