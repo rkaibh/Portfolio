@@ -2,7 +2,7 @@ var gApp = angular.module('gApp', []);
     gApp.run(function($rootScope){
     	$rootScope.address = "서울시 금천구 가산디지털2로 115 대륭테크노타운3차";
     	$rootScope.dns = "GooDee";
-    	$rootScope.title = "Portfolio";
+    	$rootScope.title = "Portfolio(AngularJS)";
     	$rootScope.name = "김원중";
     });
 	gApp.controller('gCtrl', function($scope) {
